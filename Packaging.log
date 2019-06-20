@@ -1,420 +1,418 @@
-2019-06-20 10:37:03 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffb89f88890; archive(resolved)='<IDEArchive: 0x7ffb991771b0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+2019-06-20 10:49:19 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffb899c9a70; archive(resolved)='<IDEArchive: 0x7ffb991771b0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
 	Chain (12, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x7ffb89f88890; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionProcessingPipelineContext: 0x7ffb96cdf160; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb8a8cf510; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb8673b080; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffba4831460; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb89dabb80; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb88dba550; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb88d135f0; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb8a812cb0; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7ffb887f0770; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='(null)'>
-	<IDEDistributionContext: 0x7ffb88a99480; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='(null)'>
-	<IDEDistributionContext: 0x7ffb876bd280; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='(null)', team='(null)'>
-</IDEDistributionProcessingPipelineContext: 0x7ffb89f88890>
-2019-06-20 10:37:03 +0000  Processing step: IDEDistributionCreateDestRootStep
-2019-06-20 10:37:03 +0000  Processing step: IDEDistributionCopyItemStep
-2019-06-20 10:37:03 +0000  Running /usr/bin/ditto '-V' '/Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app'
-2019-06-20 10:37:03 +0000  >>> Copying /Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app 
-2019-06-20 10:37:03 +0000  
-2019-06-20 10:37:03 +0000  copying file ./_CodeSignature/CodeResources ... 
-2019-06-20 10:37:03 +0000  11673 bytes for ./_CodeSignature/CodeResources
-2019-06-20 10:37:03 +0000  copying file ./AppIcon20x20@2x.png ... 
-2019-06-20 10:37:03 +0000  7169 bytes for ./AppIcon20x20@2x.png
+	<IDEDistributionProcessingPipelineContext: 0x7ffb899c9a70; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ffb88828e90; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffba4b67830; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffb8a8e4ea0; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffb8aa80070; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffba96f0e40; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffb8ab55050; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffb88dcc0c0; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffb86e0aa70; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7ffbac2f3260; teamID='4T3LT8RX4F', teamName='Winfred Thomas', teamType='Individual', username='dkimkh@yeah.net', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7ffb88d7ff80; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='(null)'>
+	<IDEDistributionContext: 0x7ffb899774c0; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffb87003b00>', team='(null)'>
+	<IDEDistributionContext: 0x7ffb87651a50; archive = '<IDEArchive: 0x7ffb991771b0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ffb899c9a70>
+2019-06-20 10:49:19 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-06-20 10:49:19 +0000  Processing step: IDEDistributionCopyItemStep
+2019-06-20 10:49:19 +0000  Running /usr/bin/ditto '-V' '/Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app'
+2019-06-20 10:49:19 +0000  >>> Copying /Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app 
+2019-06-20 10:49:19 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-06-20 10:49:19 +0000  11673 bytes for ./_CodeSignature/CodeResources
+2019-06-20 10:49:19 +0000  copying file ./AppIcon20x20@2x.png ... 
+2019-06-20 10:49:19 +0000  7169 bytes for ./AppIcon20x20@2x.png
 copying file ./AppIcon20x20@3x.png ... 
-2019-06-20 10:37:03 +0000  10521 bytes for ./AppIcon20x20@3x.png
-2019-06-20 10:37:03 +0000  copying file ./AppIcon60x60@2x.png ... 
-2019-06-20 10:37:03 +0000  23949 bytes for ./AppIcon60x60@2x.png
-2019-06-20 10:37:03 +0000  copying file ./AppIcon29x29@2x.png ... 
-2019-06-20 10:37:03 +0000  10071 bytes for ./AppIcon29x29@2x.png
+2019-06-20 10:49:19 +0000  10521 bytes for ./AppIcon20x20@3x.png
+copying file ./AppIcon60x60@2x.png ... 
+2019-06-20 10:49:19 +0000  23949 bytes for ./AppIcon60x60@2x.png
+2019-06-20 10:49:19 +0000  copying file ./AppIcon29x29@2x.png ... 
+2019-06-20 10:49:19 +0000  10071 bytes for ./AppIcon29x29@2x.png
 copying file ./AppIcon40x40@3x.png ... 
-2019-06-20 10:37:03 +0000  23949 bytes for ./AppIcon40x40@3x.png
+2019-06-20 10:49:19 +0000  23949 bytes for ./AppIcon40x40@3x.png
 copying file ./AppIcon40x40@2x.png ... 
-2019-06-20 10:37:03 +0000  14399 bytes for ./AppIcon40x40@2x.png
-2019-06-20 10:37:03 +0000  copying file ./mindmath ... 
-2019-06-20 10:37:03 +0000  2192352 bytes for ./mindmath
+2019-06-20 10:49:19 +0000  14399 bytes for ./AppIcon40x40@2x.png
+copying file ./mindmath ... 
+2019-06-20 10:49:19 +0000  2192352 bytes for ./mindmath
 copying file ./AppIcon29x29@3x.png ... 
-2019-06-20 10:37:03 +0000  15806 bytes for ./AppIcon29x29@3x.png
-2019-06-20 10:37:03 +0000  copying file ./question.json ... 
-2019-06-20 10:37:03 +0000  5336 bytes for ./question.json
+2019-06-20 10:49:19 +0000  15806 bytes for ./AppIcon29x29@3x.png
+2019-06-20 10:49:19 +0000  copying file ./question.json ... 
+2019-06-20 10:49:19 +0000  5336 bytes for ./question.json
 copying file ./AppIcon60x60@3x.png ... 
-2019-06-20 10:37:03 +0000  40942 bytes for ./AppIcon60x60@3x.png
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:03 +0000  997 bytes for ./Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib ... 
-2019-06-20 10:37:03 +0000  997 bytes for ./Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:03 +0000  5449 bytes for ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib ... 
-2019-06-20 10:37:03 +0000  5567 bytes for ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:03 +0000  1220 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
-2019-06-20 10:37:03 +0000  1220 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:03 +0000  4707 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
-2019-06-20 10:37:03 +0000  4828 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:03 +0000  3602 bytes for ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib ... 
-2019-06-20 10:37:03 +0000  3724 bytes for ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:03 +0000  996 bytes for ./Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib ... 
-2019-06-20 10:37:03 +0000  996 bytes for ./Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
-2019-06-20 10:37:03 +0000  361 bytes for ./Base.lproj/Main.storyboardc/Info.plist
-2019-06-20 10:37:03 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
-2019-06-20 10:37:03 +0000  2570 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
-copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
-2019-06-20 10:37:03 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-06-20 10:49:19 +0000  40942 bytes for ./AppIcon60x60@3x.png
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:19 +0000  997 bytes for ./Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib ... 
+2019-06-20 10:49:19 +0000  997 bytes for ./Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:19 +0000  5449 bytes for ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib
+copying file ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib ... 
+2019-06-20 10:49:19 +0000  5567 bytes for ./Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:19 +0000  1220 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
+2019-06-20 10:49:19 +0000  1220 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:19 +0000  4707 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
+2019-06-20 10:49:19 +0000  4828 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:19 +0000  3602 bytes for ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib ... 
+2019-06-20 10:49:19 +0000  3724 bytes for ./Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:19 +0000  996 bytes for ./Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib ... 
+2019-06-20 10:49:19 +0000  996 bytes for ./Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2019-06-20 10:49:19 +0000  361 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-06-20 10:49:19 +0000  2570 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-06-20 10:49:19 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-06-20 10:49:19 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
 copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2019-06-20 10:37:03 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
-2019-06-20 10:37:03 +0000  copying file ./Assets.car ... 
-2019-06-20 10:37:03 +0000  5237448 bytes for ./Assets.car
-copying file ./GameCollectionViewCell.nib ... 
-2019-06-20 10:37:03 +0000  7828 bytes for ./GameCollectionViewCell.nib
-copying file ./embedded.mobileprovision ... 
-2019-06-20 10:37:03 +0000  7586 bytes for ./embedded.mobileprovision
-2019-06-20 10:37:03 +0000  copying file ./Info.plist ... 
-2019-06-20 10:37:03 +0000  1428 bytes for ./Info.plist
-2019-06-20 10:37:03 +0000  copying file ./PkgInfo ... 
-2019-06-20 10:37:03 +0000  8 bytes for ./PkgInfo
-2019-06-20 10:37:03 +0000  /usr/bin/ditto exited with 0
-2019-06-20 10:37:03 +0000  Processing step: IDEDistributionEmbedProfileStep
-2019-06-20 10:37:03 +0000  Processing step: IDEDistributionAppThinningPlistStep
-2019-06-20 10:37:03 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2019-06-20 10:37:03 +0000  Processing step: IDEDistributionCompileBitcodeStep
-2019-06-20 10:37:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root' '--json' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool-json-filepath-~~~4hEEiV' '--compile-bitcode' '--output' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.~~~uX83cA' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms' '--app-store-tools-build-version' '10E1001'
-2019-06-20 10:37:03 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin18]
-2019-06-20 10:37:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3164: warning: shadowing outer local variable - c
-2019-06-20 10:37:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3170: warning: shadowing outer local variable - c
+2019-06-20 10:49:19 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-06-20 10:49:19 +0000  copying file ./Assets.car ... 
+2019-06-20 10:49:19 +0000  5237448 bytes for ./Assets.car
+2019-06-20 10:49:19 +0000  copying file ./GameCollectionViewCell.nib ... 
+2019-06-20 10:49:19 +0000  7828 bytes for ./GameCollectionViewCell.nib
+2019-06-20 10:49:19 +0000  copying file ./embedded.mobileprovision ... 
+2019-06-20 10:49:19 +0000  7586 bytes for ./embedded.mobileprovision
+2019-06-20 10:49:19 +0000  copying file ./Info.plist ... 
+2019-06-20 10:49:19 +0000  1428 bytes for ./Info.plist
+2019-06-20 10:49:19 +0000  copying file ./PkgInfo ... 
+2019-06-20 10:49:19 +0000  8 bytes for ./PkgInfo
+2019-06-20 10:49:19 +0000  /usr/bin/ditto exited with 0
+2019-06-20 10:49:19 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-06-20 10:49:19 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-06-20 10:49:19 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-06-20 10:49:19 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-06-20 10:49:19 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root' '--json' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool-json-filepath-~~~mi90Mb' '--compile-bitcode' '--output' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.~~~ESzTtW' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms' '--app-store-tools-build-version' '10E1001'
+2019-06-20 10:49:19 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin18]
+2019-06-20 10:49:19 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3164: warning: shadowing outer local variable - c
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3170: warning: shadowing outer local variable - c
 /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3173: warning: shadowing outer local variable - c
-2019-06-20 10:37:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3163: warning: assigned but unused variable - prod
-2019-06-20 10:37:03 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
+2019-06-20 10:49:19 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:3163: warning: assigned but unused variable - prod
+2019-06-20 10:49:19 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
 /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:109: warning: assigned but unused variable - e
-2019-06-20 10:37:03 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
-2019-06-20 10:37:03 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
-2019-06-20 10:37:03 +0000  OS X 10.14.5 18F132
-2019-06-20 10:37:03 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/", "LOGNAME"=>"dev1", "HOME"=>"/Users/dev1", "XPC_FLAGS"=>"0x0", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.vCZZpSVekw/Render", "USER"=>"dev1", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.NB7gCsGswW/Listeners", "DISPLAY"=>"/private/tmp/com.apple.launchd.iEXo3PR6Ey/org.macosforge.xquartz:0", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.4700", "CA_ASSERT_MAIN_THREAD_TRANSACTIONS"=>"1", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F6:0x19:0x34", "CA_DEBUG_TRANSACTIONS"=>"1"}
-ARGV: ["/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root", "--json", "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool-json-filepath-~~~4hEEiV", "--compile-bitcode", "--output", "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.~~~uX83cA", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms", "--app-store-tools-build-version", "10E1001"]
-2019-06-20 10:37:03 +0000  ---
+2019-06-20 10:49:19 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2019-06-20 10:49:19 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2019-06-20 10:49:19 +0000  OS X 10.14.5 18F132
+2019-06-20 10:49:19 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/", "LOGNAME"=>"dev1", "HOME"=>"/Users/dev1", "XPC_FLAGS"=>"0x0", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.vCZZpSVekw/Render", "USER"=>"dev1", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.NB7gCsGswW/Listeners", "DISPLAY"=>"/private/tmp/com.apple.launchd.iEXo3PR6Ey/org.macosforge.xquartz:0", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.4700", "CA_ASSERT_MAIN_THREAD_TRANSACTIONS"=>"1", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F6:0x19:0x34", "CA_DEBUG_TRANSACTIONS"=>"1"}
+ARGV: ["/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root", "--json", "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool-json-filepath-~~~mi90Mb", "--compile-bitcode", "--output", "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.~~~ESzTtW", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms", "--app-store-tools-build-version", "10E1001"]
+2019-06-20 10:49:19 +0000  ---
 IPA contents:
-2019-06-20 10:37:03 +0000  /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon20x20@2x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon20x20@3x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon29x29@2x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon29x29@3x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon40x40@2x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon40x40@3x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon60x60@2x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/AppIcon60x60@3x.png
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Assets.car
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib
+2019-06-20 10:49:19 +0000  /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon20x20@2x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon20x20@3x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon29x29@2x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon29x29@3x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon40x40@2x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon40x40@3x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon60x60@2x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/AppIcon60x60@3x.png
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Assets.car
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib
 /
-2019-06-20 10:37:03 +0000  var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/GameCollectionViewCell.nib
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Info.plist
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/PkgInfo
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/_CodeSignature
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/_CodeSignature/CodeResources
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/embedded.mobileprovision
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath
-/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/question.json
+2019-06-20 10:49:19 +0000  var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/GameCollectionViewCell.nib
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Info.plist
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/PkgInfo
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/_CodeSignature
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/_CodeSignature/CodeResources
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/embedded.mobileprovision
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath
+/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/question.json
 ---
-2019-06-20 10:37:03 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
-2019-06-20 10:37:03 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
-2019-06-20 10:37:03 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
-2019-06-20 10:37:03 +0000  Scanning IPA...
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon20x20@2x.png
-2019-06-20 10:37:03 +0000      Command exited with pid 48923 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon20x20@2x.png
+2019-06-20 10:49:19 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-06-20 10:49:19 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-06-20 10:49:20 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2019-06-20 10:49:20 +0000  Scanning IPA...
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon20x20@2x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49811 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon20x20@2x.png
     Stdout:
         PNG image data (CgBI), 40 x 40, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon20x20@3x.png
-2019-06-20 10:37:03 +0000      Command exited with pid 48924 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon20x20@3x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon20x20@3x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49812 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon20x20@3x.png
     Stdout:
         PNG image data (CgBI), 60 x 60, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon29x29@2x.png
-2019-06-20 10:37:03 +0000      Command exited with pid 48925 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon29x29@2x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon29x29@2x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49813 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon29x29@2x.png
     Stdout:
         PNG image data (CgBI), 58 x 58, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon29x29@3x.png
-2019-06-20 10:37:03 +0000      Command exited with pid 48926 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon29x29@3x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon29x29@3x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49814 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon29x29@3x.png
     Stdout:
         PNG image data (CgBI), 87 x 87, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon40x40@2x.png
-2019-06-20 10:37:03 +0000      Command exited with pid 48927 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon40x40@2x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon40x40@2x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49815 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon40x40@2x.png
     Stdout:
         PNG image data (CgBI), 80 x 80, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon40x40@3x.png
-2019-06-20 10:37:03 +0000      Command exited with pid 48928 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon40x40@3x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon40x40@3x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49816 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon40x40@3x.png
     Stdout:
         PNG image data (CgBI), 120 x 120, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:03 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon60x60@2x.png
-2019-06-20 10:37:04 +0000      Command exited with pid 48929 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon60x60@2x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon60x60@2x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49817 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon60x60@2x.png
     Stdout:
         PNG image data (CgBI), 120 x 120, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon60x60@3x.png
-2019-06-20 10:37:04 +0000  
-2019-06-20 10:37:04 +0000      Command exited with pid 48930 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/AppIcon60x60@3x.png
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon60x60@3x.png
+2019-06-20 10:49:20 +0000      Command exited with pid 49818 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/AppIcon60x60@3x.png
     Stdout:
         PNG image data (CgBI), 180 x 180, 8-bit/color RGBA, non-interlaced
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Assets.car
-2019-06-20 10:37:04 +0000      Command exited with pid 48931 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Assets.car
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Assets.car
+2019-06-20 10:49:20 +0000      Command exited with pid 49819 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Assets.car
     Stdout:
         Mac OS X bill of materials (BOM) file
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48933 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49821 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
-2019-06-20 10:37:04 +0000      Command exited with pid 48934 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-06-20 10:49:20 +0000      Command exited with pid 49822 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
     Stdout:
         Apple binary property list
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48935 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49823 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0\+.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48937 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49825 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0\+.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48938 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49826 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0\+.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48939 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49827 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0\+.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48940 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49828 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0\+.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48941 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49829 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0\+.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48942 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49830 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0\+.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48943 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49831 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0\+.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48944 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49832 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
-2019-06-20 10:37:04 +0000      Command exited with pid 48945 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
+2019-06-20 10:49:20 +0000      Command exited with pid 49833 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
     Stdout:
         Apple binary property list
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0\+.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48946 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49834 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0\+.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48947 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49835 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0\+.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48948 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0\+.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49836 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0\+.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48949 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49837 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/GameCollectionViewCell.nib
-2019-06-20 10:37:04 +0000      Command exited with pid 48950 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/GameCollectionViewCell.nib
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/GameCollectionViewCell.nib
+2019-06-20 10:49:20 +0000      Command exited with pid 49838 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/GameCollectionViewCell.nib
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Info.plist
-2019-06-20 10:37:04 +0000      Command exited with pid 48951 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/Info.plist
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Info.plist
+2019-06-20 10:49:20 +0000      Command exited with pid 49839 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/Info.plist
     Stdout:
         Apple binary property list
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/PkgInfo
-2019-06-20 10:37:04 +0000      Command exited with pid 48952 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/PkgInfo
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/PkgInfo
+2019-06-20 10:49:20 +0000      Command exited with pid 49840 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/PkgInfo
     Stdout:
         ASCII text, with no line terminators
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/_CodeSignature/CodeResources
-2019-06-20 10:37:04 +0000      Command exited with pid 48953 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/_CodeSignature/CodeResources
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/_CodeSignature/CodeResources
+2019-06-20 10:49:20 +0000      Command exited with pid 49841 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/_CodeSignature/CodeResources
     Stdout:
         XML 1.0 document text, ASCII text
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/embedded.mobileprovision
-2019-06-20 10:37:04 +0000      Command exited with pid 48954 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/embedded.mobileprovision
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/embedded.mobileprovision
+2019-06-20 10:49:20 +0000      Command exited with pid 49842 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/embedded.mobileprovision
     Stdout:
         data
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
-2019-06-20 10:37:04 +0000      Command exited with pid 48955 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000      Command exited with pid 49843 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
     Stdout:
         Mach-O universal binary with 2 architectures: [arm_v7:Mach-O executable arm_v7] [arm64]
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath (for architecture armv7):	Mach-O executable arm_v7
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath (for architecture arm64):	Mach-O 64-bit executable arm64
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath (for architecture armv7):	Mach-O executable arm_v7
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath (for architecture arm64):	Mach-O 64-bit executable arm64
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
-2019-06-20 10:37:04 +0000      Command exited with pid 48956 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000      Command exited with pid 49844 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
     Stdout:
-        Architectures in the fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath are: armv7 arm64 
+        Architectures in the fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath are: armv7 arm64 
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
-2019-06-20 10:37:04 +0000      Command exited with pid 48957 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000      Command exited with pid 49845 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
@@ -425,11 +423,11 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
-2019-06-20 10:37:04 +0000      Command exited with pid 48959 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000      Command exited with pid 49847 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
     Stdout:
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath:
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
            MH_MAGIC     ARM         V7  0x00     EXECUTE    24       2860   NOUNDEFS DYLDLINK TWOLEVEL PIE
@@ -565,7 +563,7 @@ IPA contents:
           sectname __gcc_except_tab
            segname __TEXT
               addr 0x00023fc
-2019-06-20 10:37:04 +0000  4
+2019-06-20 10:49:20 +0000  4
               size 0x0000003c
             offset 131012
              align 2^2 (4)
@@ -724,7 +722,7 @@ IPA contents:
               size 0x000000c4
             offset 149736
     
-2019-06-20 10:37:04 +0000           align 2^2 (4)
+2019-06-20 10:49:20 +0000           align 2^2 (4)
             reloff 0
             nreloc 0
               type S_REGULAR
@@ -883,7 +881,7 @@ IPA contents:
          cmdsize 24
             uuid D98E85C2-1809-3D6E-8673-75C54267AA6A
         Load com
-2019-06-20 10:37:04 +0000  mand 10
+2019-06-20 10:49:20 +0000  mand 10
               cmd LC_VERSION_MIN_IPHONEOS
           cmdsize 16
           version 10.0
@@ -967,11 +965,11 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
-2019-06-20 10:37:04 +0000      Command exited with pid 48961 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000      Command exited with pid 49849 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath
     Stdout:
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath:
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    24       3440   NOUNDEFS DYLDLINK TWOLEVEL PIE
@@ -1101,7 +1099,7 @@ IPA contents:
             nreloc 0
               type S_REGULAR
         attributes
-2019-06-20 10:37:04 +0000   (none)
+2019-06-20 10:49:20 +0000   (none)
          reserved1 0
          reserved2 0
         Section
@@ -1253,7 +1251,7 @@ IPA contents:
               size 0x0000000000000008
             offset 153864
              
-2019-06-20 10:37:04 +0000  align 2^2 (4)
+2019-06-20 10:49:20 +0000  align 2^2 (4)
             reloff 0
             nreloc 0
               type S_REGULAR
@@ -1408,7 +1406,7 @@ IPA contents:
             rebase_size 1200
                bind_off 1066160
               bind_size 2200
-2019-06-20 10:37:04 +0000            weak_bind_off 0
+2019-06-20 10:49:20 +0000            weak_bind_off 0
          weak_bind_size 0
           lazy_bind_off 1068360
          lazy_bind_size 2144
@@ -1535,61 +1533,61 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:04 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/question.json
-2019-06-20 10:37:04 +0000      Command exited with pid 48963 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/question.json
+2019-06-20 10:49:20 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/question.json
+2019-06-20 10:49:20 +0000      Command exited with pid 49851 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/question.json
     Stdout:
         UTF-8 Unicode text
     
     Stderr:
     
-2019-06-20 10:37:05 +0000  Complete LinkageGraph:
+2019-06-20 10:49:20 +0000  Complete LinkageGraph:
     mindmath.app/mindmath armv7 ->
     
     mindmath.app/mindmath arm64 ->
-2019-06-20 10:37:05 +0000  Validating IPA structure...
-2019-06-20 10:37:05 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath
-2019-06-20 10:37:05 +0000  Compiling bitcode...
-2019-06-20 10:37:05 +0000      Command exited with pid 48995 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath
+2019-06-20 10:49:20 +0000  Validating IPA structure...
+2019-06-20 10:49:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath
+2019-06-20 10:49:21 +0000  Compiling bitcode...
+2019-06-20 10:49:21 +0000      Command exited with pid 49883 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath
     Stdout:
     
     Stderr:
     
-2019-06-20 10:37:05 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath
-2019-06-20 10:37:05 +0000      Command exited with pid 48996 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~56eVul/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath
+2019-06-20 10:49:21 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath
+2019-06-20 10:49:21 +0000      Command exited with pid 49884 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -thin arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.\~\~\~77tt2q/Root/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath
     Stdout:
     
     Stderr:
     
-2019-06-20 10:37:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath
-2019-06-20 10:37:05 +0000    Compiling bitcode for armv7...
+2019-06-20 10:49:21 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath
+2019-06-20 10:49:21 +0000    Compiling bitcode for armv7...
     Compiling armv7 bitcode in 'mindmath'
-2019-06-20 10:37:08 +0000      Command exited with pid 48997 exit 0:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath
+2019-06-20 10:49:23 +0000      Command exited with pid 49885 exit 0:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath
     Stdout:
         Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk
         Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
         MachoInfo: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath"
         -= Output =-
-        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath is architecture: armv7
+        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath is architecture: armv7
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath"
         -= Output =-
-        UUID: D98E85C2-1809-3D6E-8673-75C54267AA6A (armv7) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath
+        UUID: D98E85C2-1809-3D6E-8673-75C54267AA6A (armv7) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
         ExtractXAR: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath" "-extract" "__LLVM" "__bundle" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathoCJT0F/mindmath.armv7.xar"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath" "-extract" "__LLVM" "__bundle" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathXoYsG7/mindmath.armv7.xar"
         -= Output =-
         Exited with 0
         
@@ -1598,136 +1596,136 @@ IPA contents:
         Debug: Setting platform to: iOS
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "01" "-o" "01.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "i
-2019-06-20 10:37:08 +0000  r" "02" "-o" "02.o"
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0"
+2019-06-20 10:49:23 +0000   "-x" "ir" "02" "-o" "02.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "03" "-o" "03.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "04" "-o" "04.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "05" "-o" "05.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "06" "-o" "06.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "07" "-o" "07.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "08" "-o" "08.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "09" "-o" "09.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "10" "-o" "10.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/t
-2019-06-20 10:37:08 +0000  empz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w00
+2019-06-20 10:49:23 +0000  00gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "11" "-o" "11.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "12" "-o" "12.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "13" "-o" "13.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "14" "-o" "14.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "15" "-o" "15.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "16" "-o" "16.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "17" "-o" "17.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "18" "-o" "18.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-pa
-2019-06-20 10:37:08 +0000  sses" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "19" "-o" "19.o"
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable
+2019-06-20 10:49:23 +0000  -llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "19" "-o" "19.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "20" "-o" "20.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "21" "-o" "21.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-mllvm" "-arm-bitcode-compatibility" "-mllvm" "-fast-isel=0" "-x" "ir" "22" "-o" "22.o"
         -= Output =-
         Exited with 0
@@ -1741,32 +1739,32 @@ IPA contents:
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd
-        Ld: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempz5V0R8
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "10.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/dev1/Library/Developer/Xcode/DerivedData/mindmath-gtlzwuyifayucddrxzpezoyyjdnd/Build/Intermediates.noindex/ArchiveIntermediates/mindmath/IntermediateBuildFilesPath/mindmath.build/Release-iphoneos/mindmath.build/Objects-normal/armv7/mindmath" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk" "-sdk_version" "12.2.0" "-filelist" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathoCJT0F/mindmath.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/App
-2019-06-20 10:37:08 +0000  lications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathoCJT0F/mindmath.armv7.out"
+        Ld: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempaDIaHa
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "10.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/dev1/Library/Developer/Xcode/DerivedData/mindmath-gtlzwuyifayucddrxzpezoyyjdnd/Build/Intermediates.noindex/ArchiveIntermediates/mindmath/IntermediateBuildFilesPath/mindmath.build/Release-iphoneos/mindmath.build/Objects-normal/armv7/mindmath" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk" "-sdk_version" "12.2.0" "-filelist" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathXoYsG7/mindmath.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicate
+2019-06-20 10:49:23 +0000  s" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathXoYsG7/mindmath.armv7.out"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        warning: Cannot genarte useful dsym from input macho file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/armv7/Payload/mindmath.app/mindmath
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/armv7/Payload/mindmath.app/mindmath
         
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath"
         -= Output =-
-        UUID: 5621BF0D-FD8A-3C1D-8C88-C9072DDBA8A5 (armv7) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath
+        UUID: 5621BF0D-FD8A-3C1D-8C88-C9072DDBA8A5 (armv7) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
         Dsymutil: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath" "-o" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath" "-o" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
         StripSymbols: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath"
         -= Output =-
         Exited with 0
         
@@ -1774,33 +1772,33 @@ IPA contents:
     
     Stderr:
     
-/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath
-2019-06-20 10:37:08 +0000      Command exited with pid 49032 exit 0:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath
+2019-06-20 10:49:23 +0000      Command exited with pid 49920 exit 0:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath
     Stdout:
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath [armv7, 0.017616 seconds]:
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath [armv7, 0.000871 seconds]:
     
     Stderr:
     
-2019-06-20 10:37:08 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:08 +0000      Command exited with pid 49033 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000      Command exited with pid 49921 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
         Mach-O dSYM companion file arm_v7
     
     Stderr:
     
-2019-06-20 10:37:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:08 +0000      Command exited with pid 49034 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000      Command exited with pid 49922 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
-        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath is architecture: armv7
+        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath is architecture: armv7
     
     Stderr:
     
-2019-06-20 10:37:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:08 +0000      Command exited with pid 49035 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000      Command exited with pid 49923 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
@@ -1808,11 +1806,11 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:08 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:09 +0000      Command exited with pid 49037 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000      Command exited with pid 49925 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath:
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
            MH_MAGIC     ARM         V7  0x00        DSYM     7       2776 0x00000000
@@ -1946,8 +1944,8 @@ IPA contents:
           sectname __ustring
            segname __TEXT
               addr 0x00023fc0
-      
-2019-06-20 10:37:09 +0000          size 0x00000004
+    
+2019-06-20 10:49:23 +0000            size 0x00000004
             offset 0
              align 2^1 (2)
             reloff 0
@@ -2107,8 +2105,8 @@ IPA contents:
              align 2^2 (4)
             reloff 0
             nreloc 0
-              type S_LITERAL
-2019-06-20 10:37:09 +0000  _POINTERS
+              type S_LITER
+2019-06-20 10:49:23 +0000  AL_POINTERS
         attributes NO_DEAD_STRIP
          reserved1 0
          reserved2 0
@@ -2272,8 +2270,8 @@ IPA contents:
               addr 0x0003c6f2
               size 0x00000340
             offset 71410
-            
-2019-06-20 10:37:09 +0000   align 2^0 (1)
+          
+2019-06-20 10:49:23 +0000     align 2^0 (1)
             reloff 0
             nreloc 0
               type S_REGULAR
@@ -2361,34 +2359,34 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:09 +0000  warning: Could not determine platform for armv7 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:09 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath
-2019-06-20 10:37:09 +0000    Compiling bitcode for arm64...
+2019-06-20 10:49:23 +0000  warning: Could not determine platform for armv7 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:23 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath
+2019-06-20 10:49:23 +0000    Compiling bitcode for arm64...
     Compiling arm64 bitcode in 'mindmath'
-2019-06-20 10:37:11 +0000      Command exited with pid 49039 exit 0:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49927 exit 0:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk -o /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath --generate-dsym /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM --strip-swift-symbols /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath
     Stdout:
         Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk
         Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
         MachoInfo: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath"
         -= Output =-
-        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath is architecture: arm64
+        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath is architecture: arm64
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath"
         -= Output =-
-        UUID: D6A9EFB3-8D8D-310D-9BC1-E349BA434F22 (arm64) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath
+        UUID: D6A9EFB3-8D8D-310D-9BC1-E349BA434F22 (arm64) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
         ExtractXAR: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath" "-extract" "__LLVM" "__bundle" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathj3M5A8/mindmath.arm64.xar"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath" "-extract" "__LLVM" "__bundle" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathtthfS4/mindmath.arm64.xar"
         -= Output =-
         Exited with 0
         
@@ -2397,142 +2395,142 @@ IPA contents:
         Debug: Setting platform to: iOS
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "01" "-o" "01.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "02" "-o" "02.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w
-2019-06-20 10:37:11 +0000  0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d
+2019-06-20 10:49:25 +0000  7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "03" "-o" "03.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "04" "-o" "04.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "05" "-o" "05.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "06" "-o" "06.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "07" "-o" "07.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios10.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "08" "-o" "08.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "09" "-o" "09.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "10" "-o" "10.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "11" "-o" "11.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "12" "-o" "12.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
-        "/Applicatio
-2019-06-20 10:37:11 +0000  ns/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "13" "-o" "13.o"
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
+        "/Ap
+2019-06-20 10:49:25 +0000  plications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "13" "-o" "13.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "14" "-o" "14.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "15" "-o" "15.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "16" "-o" "16.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "17" "-o" "17.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "18" "-o" "18.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "19" "-o" "19.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "20" "-o" "20.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "21" "-o" "21.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
+        Clang: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "22" "-o" "22.o"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/Sys
-2019-06-20 10:37:11 +0000  tem/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2
+2019-06-20 10:49:25 +0000  .sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd
@@ -2540,32 +2538,32 @@ IPA contents:
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd
-        Ld: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempiNnQZa
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "10.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/dev1/Library/Developer/Xcode/DerivedData/mindmath-gtlzwuyifayucddrxzpezoyyjdnd/Build/Intermediates.noindex/ArchiveIntermediates/mindmath/IntermediateBuildFilesPath/mindmath.build/Release-iphoneos/mindmath.build/Objects-normal/arm64/mindmath" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk" "-sdk_version" "12.2.0" "-filelist" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathj3M5A8/mindmath.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathj3M5A8/mindmath.arm64.out"
+        Ld: cd /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/tempw64MmI
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "10.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/dev1/Library/Developer/Xcode/DerivedData/mindmath-gtlzwuyifayucddrxzpezoyyjdnd/Build/Intermediates.noindex/ArchiveIntermediates/mindmath/IntermediateBuildFilesPath/mindmath.build/Release-iphoneos/mindmath.build/Objects-normal/arm64/mindmath" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk" "-sdk_version" "12.2.0" "-filelist" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathtthfS4/mindmath.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/mindmathtthfS4/mindmath.arm64.out"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        warning: Cannot genarte useful dsym from input macho file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-in/arm64/Payload/mindmath.app/mindmath
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-in/arm64/Payload/mindmath.app/mindmath
         
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolc
-2019-06-20 10:37:11 +0000  hain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefaul
+2019-06-20 10:49:25 +0000  t.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath"
         -= Output =-
-        UUID: 985E7A7D-D5C8-3FCD-93A5-4B77501A1279 (arm64) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath
+        UUID: 985E7A7D-D5C8-3FCD-93A5-4B77501A1279 (arm64) /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
         Dsymutil: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath" "-o" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath" "-o" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM"
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
         StripSymbols: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath"
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath"
         -= Output =-
         Exited with 0
         
@@ -2573,33 +2571,33 @@ IPA contents:
     
     Stderr:
     
-/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath
-2019-06-20 10:37:11 +0000      Command exited with pid 49074 exit 0:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49962 exit 0:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath
     Stdout:
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath [arm64, 0.016789 seconds]:
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath [arm64, 0.001778 seconds]:
     
     Stderr:
     
-2019-06-20 10:37:11 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:11 +0000      Command exited with pid 49075 exit 0:
-    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000  /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49963 exit 0:
+    /usr/bin/file -b -- /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
         Mach-O 64-bit dSYM companion file arm64
     
     Stderr:
     
-2019-06-20 10:37:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:11 +0000      Command exited with pid 49076 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49964 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
-        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath is architecture: arm64
+        Non-fat file: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath is architecture: arm64
     
     Stderr:
     
-2019-06-20 10:37:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:11 +0000      Command exited with pid 49077 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49965 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
@@ -2607,11 +2605,11 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:11 +0000      Command exited with pid 49079 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49967 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
     Stdout:
-        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath:
+        /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3448 0x00000000
@@ -2739,8 +2737,8 @@ IPA contents:
             nreloc 0
               type S_CSTRING_LITERALS
         attributes (none)
-       
-2019-06-20 10:37:11 +0000    reserved1 0
+     
+2019-06-20 10:49:25 +0000      reserved1 0
          reserved2 0
         Section
           sectname __const
@@ -2894,8 +2892,8 @@ IPA contents:
             reloff 0
             nreloc 0
               type S_REGULAR
-   
-2019-06-20 10:37:11 +0000       attributes (none)
+ 
+2019-06-20 10:49:25 +0000         attributes (none)
          reserved1 0
          reserved2 0
         Section
@@ -3051,8 +3049,8 @@ IPA contents:
               type S_REGULAR
         attributes (none)
          reserved1 0
-         reserved
-2019-06-20 10:37:11 +0000  2 0
+         reserv
+2019-06-20 10:49:25 +0000  ed2 0
         Section
           sectname __debug_pubnames
            segname __DWARF
@@ -3186,22 +3184,22 @@ IPA contents:
     
     Stderr:
     
-2019-06-20 10:37:11 +0000  warning: Could not determine platform for arm64 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
-2019-06-20 10:37:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/universal-MachOs/Payload/mindmath.app/mindmath
-2019-06-20 10:37:11 +0000      Command exited with pid 49081 exit 0:
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/universal-MachOs/Payload/mindmath.app/mindmath
+2019-06-20 10:49:25 +0000  warning: Could not determine platform for arm64 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath
+2019-06-20 10:49:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/universal-MachOs/Payload/mindmath.app/mindmath
+2019-06-20 10:49:25 +0000      Command exited with pid 49969 exit 0:
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create -arch armv7 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath -arch arm64 /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath -output /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/universal-MachOs/Payload/mindmath.app/mindmath
     Stdout:
     
     Stderr:
     
-2019-06-20 10:37:11 +0000  Creating universal IPA contents for all variants
-  Creating directory /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.\~\~\~uX83cA/universal
+2019-06-20 10:49:25 +0000  Creating universal IPA contents for all variants
+  Creating directory /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.\~\~\~ESzTtW/universal
   Copying mindmath.app output payload directory
-2019-06-20 10:37:11 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
-2019-06-20 10:37:11 +0000    Copying .dSYM files to /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.\~\~\~uX83cA/universal/dSYMs
-  Copying .symbols files to /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.\~\~\~uX83cA/universal/Symbols
-2019-06-20 10:37:11 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
-2019-06-20 10:37:11 +0000  ipatool JSON: {
+2019-06-20 10:49:25 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+2019-06-20 10:49:25 +0000    Copying .dSYM files to /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.\~\~\~ESzTtW/universal/dSYMs
+  Copying .symbols files to /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.\~\~\~ESzTtW/universal/Symbols
+2019-06-20 10:49:25 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2019-06-20 10:49:25 +0000  ipatool JSON: {
     alerts =     (
                 {
             code = 3309;
@@ -3226,42 +3224,42 @@ IPA contents:
         },
                 {
             code = 1802;
-            description = "Could not determine platform for armv7 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath";
+            description = "Could not determine platform for armv7 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/armv7/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath";
             info =             {
             };
             level = WARN;
         },
                 {
             code = 1802;
-            description = "Could not determine platform for arm64 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-48910-sg5rua/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath";
+            description = "Could not determine platform for arm64 in /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/ipatool20190620-49799-1871jlf/thinned-out/arm64/Payload/mindmath.app/mindmath.dSYM/Contents/Resources/DWARF/mindmath";
             info =             {
             };
             level = WARN;
         }
     );
     thinnableAssetCatalogs =     (
-        "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/Assets.car"
+        "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/Assets.car"
     );
     universalIPA =     {
-        path = "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.~~~uX83cA/universal";
+        path = "/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/IDEIPAProcessor.AppThinning.~~~ESzTtW/universal";
     };
 }
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionCodeSlimmingStep
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionSymbolsStep
-2019-06-20 10:37:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionAppThinningStep
-2019-06-20 10:37:11 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionArchThinningStep
-2019-06-20 10:37:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app/mindmath' '-verify_arch' 'arm64e'
-2019-06-20 10:37:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
-2019-06-20 10:37:11 +0000  Skipping architecture thinning for item "mindmath" because arch "arm64e" wasn't found
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionODRStep
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionStripXattrsStep
-2019-06-20 10:37:11 +0000  Running /usr/bin/xattr '-crs' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app'
-2019-06-20 10:37:11 +0000  /usr/bin/xattr exited with 0
-2019-06-20 10:37:11 +0000  Processing step: IDEDistributionCodesignStep
-2019-06-20 10:37:11 +0000  Entitlements for <IDEDistributionItem: 0x7ffb86e89990 'wt.k.zyy.mindmath' '<DVTFilePath:0x7ffb88f9d530:'/Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app'>'>: {
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionSymbolsStep
+2019-06-20 10:49:25 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionAppThinningStep
+2019-06-20 10:49:25 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionArchThinningStep
+2019-06-20 10:49:25 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app/mindmath' '-verify_arch' 'arm64e'
+2019-06-20 10:49:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-20 10:49:25 +0000  Skipping architecture thinning for item "mindmath" because arch "arm64e" wasn't found
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionODRStep
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-06-20 10:49:25 +0000  Running /usr/bin/xattr '-crs' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app'
+2019-06-20 10:49:25 +0000  /usr/bin/xattr exited with 0
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionCodesignStep
+2019-06-20 10:49:25 +0000  Entitlements for <IDEDistributionItem: 0x7ffba397e010 'wt.k.zyy.mindmath' '<DVTFilePath:0x7ffb88f9d530:'/Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app'>'>: {
     "application-identifier" = "4T3LT8RX4F.wt.k.zyy.mindmath";
     "com.apple.developer.team-identifier" = 4T3LT8RX4F;
     "get-task-allow" = 0;
@@ -3269,80 +3267,80 @@ IPA contents:
         "4T3LT8RX4F.wt.k.zyy.mindmath"
     );
 }
-2019-06-20 10:37:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffb86e89990 'wt.k.zyy.mindmath' '<DVTFilePath:0x7ffb88f9d530:'/Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app'>'> to: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/entitlements~~~mOgBiT
-2019-06-20 10:37:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62BED8B0D5194F9B85810A12989E1CD5BA9A1BF8' '--entitlements' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/entitlements~~~mOgBiT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app'
-2019-06-20 10:37:12 +0000  /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root/Payload/mindmath.app: signed app bundle with Mach-O universal (armv7 arm64) [wt.k.zyy.mindmath]
-2019-06-20 10:37:12 +0000  /usr/bin/codesign exited with 0
-2019-06-20 10:37:12 +0000  Processing step: IDEDistributionZipODRItemStep
-2019-06-20 10:37:12 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-06-20 10:37:12 +0000  Processing step: IDEDistributionCreateIPAStep
-2019-06-20 10:37:12 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Packages/mindmath.ipa'
-2019-06-20 10:37:12 +0000  >>> Copying /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~56eVul/Root 
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/_CodeSignature/CodeResources ... 
-2019-06-20 10:37:12 +0000  11673 bytes for ./Payload/mindmath.app/_CodeSignature/CodeResources
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/AppIcon20x20@2x.png ... 
-2019-06-20 10:37:12 +0000  7169 bytes for ./Payload/mindmath.app/AppIcon20x20@2x.png
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/AppIcon20x20@3x.png ... 
-2019-06-20 10:37:12 +0000  10521 bytes for ./Payload/mindmath.app/AppIcon20x20@3x.png
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/AppIcon60x60@2x.png ... 
-2019-06-20 10:37:12 +0000  23949 bytes for ./Payload/mindmath.app/AppIcon60x60@2x.png
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/AppIcon29x29@2x.png ... 
-2019-06-20 10:37:12 +0000  10071 bytes for ./Payload/mindmath.app/AppIcon29x29@2x.png
+2019-06-20 10:49:25 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffba397e010 'wt.k.zyy.mindmath' '<DVTFilePath:0x7ffb88f9d530:'/Users/dev1/Library/Developer/Xcode/Archives/2019-06-17/mindmath 2019-6-17, 10.47 PM.xcarchive/Products/Applications/mindmath.app'>'> to: /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/entitlements~~~8S7jpU
+2019-06-20 10:49:25 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '62BED8B0D5194F9B85810A12989E1CD5BA9A1BF8' '--entitlements' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/entitlements~~~8S7jpU' '--preserve-metadata=identifier,flags,runtime' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app'
+2019-06-20 10:49:25 +0000  /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root/Payload/mindmath.app: signed app bundle with Mach-O universal (armv7 arm64) [wt.k.zyy.mindmath]
+2019-06-20 10:49:25 +0000  /usr/bin/codesign exited with 0
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-06-20 10:49:25 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-20 10:49:25 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-06-20 10:49:25 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root' '/var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Packages/mindmath.ipa'
+2019-06-20 10:49:25 +0000  >>> Copying /var/folders/zz/0llxy4rs5w1bn_2d7h38d26w0000gp/T/XcodeDistPipeline.~~~77tt2q/Root 
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/_CodeSignature/CodeResources ... 
+2019-06-20 10:49:25 +0000  11673 bytes for ./Payload/mindmath.app/_CodeSignature/CodeResources
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/AppIcon20x20@2x.png ... 
+2019-06-20 10:49:25 +0000  7169 bytes for ./Payload/mindmath.app/AppIcon20x20@2x.png
+copying file ./Payload/mindmath.app/AppIcon20x20@3x.png ... 
+2019-06-20 10:49:25 +0000  10521 bytes for ./Payload/mindmath.app/AppIcon20x20@3x.png
+copying file ./Payload/mindmath.app/AppIcon60x60@2x.png ... 
+2019-06-20 10:49:25 +0000  23949 bytes for ./Payload/mindmath.app/AppIcon60x60@2x.png
+copying file ./Payload/mindmath.app/AppIcon29x29@2x.png ... 
+2019-06-20 10:49:25 +0000  10071 bytes for ./Payload/mindmath.app/AppIcon29x29@2x.png
 copying file ./Payload/mindmath.app/AppIcon40x40@3x.png ... 
-2019-06-20 10:37:12 +0000  23949 bytes for ./Payload/mindmath.app/AppIcon40x40@3x.png
+2019-06-20 10:49:25 +0000  23949 bytes for ./Payload/mindmath.app/AppIcon40x40@3x.png
 copying file ./Payload/mindmath.app/AppIcon40x40@2x.png ... 
-2019-06-20 10:37:12 +0000  14399 bytes for ./Payload/mindmath.app/AppIcon40x40@2x.png
+2019-06-20 10:49:25 +0000  14399 bytes for ./Payload/mindmath.app/AppIcon40x40@2x.png
 copying file ./Payload/mindmath.app/mindmath ... 
-2019-06-20 10:37:12 +0000  460720 bytes for ./Payload/mindmath.app/mindmath
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/AppIcon29x29@3x.png ... 
-2019-06-20 10:37:12 +0000  15806 bytes for ./Payload/mindmath.app/AppIcon29x29@3x.png
+2019-06-20 10:49:25 +0000  460720 bytes for ./Payload/mindmath.app/mindmath
+copying file ./Payload/mindmath.app/AppIcon29x29@3x.png ... 
+2019-06-20 10:49:25 +0000  15806 bytes for ./Payload/mindmath.app/AppIcon29x29@3x.png
 copying file ./Payload/mindmath.app/question.json ... 
-2019-06-20 10:37:12 +0000  5336 bytes for ./Payload/mindmath.app/question.json
-copying file ./Payload/mindmath.app/AppIcon60x60@3x.png ... 
-2019-06-20 10:37:12 +0000  40942 bytes for ./Payload/mindmath.app/AppIcon60x60@3x.png
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:12 +0000  997 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib ... 
-2019-06-20 10:37:12 +0000  997 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:12 +0000  5449 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib ... 
-2019-06-20 10:37:12 +0000  5567 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:12 +0000  1220 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
+2019-06-20 10:49:25 +0000  5336 bytes for ./Payload/mindmath.app/question.json
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/AppIcon60x60@3x.png ... 
+2019-06-20 10:49:25 +0000  40942 bytes for ./Payload/mindmath.app/AppIcon60x60@3x.png
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:25 +0000  997 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/objects-11.0+.nib
+copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib ... 
+2019-06-20 10:49:25 +0000  997 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/GameViewController.nib/runtime.nib
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:25 +0000  5449 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/objects-11.0+.nib
+copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib ... 
+2019-06-20 10:49:25 +0000  5567 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BaM-C9-u0Y-view-FCq-GF-RBs.nib/runtime.nib
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:25 +0000  1220 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-11.0+.nib
 copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib ... 
-2019-06-20 10:37:12 +0000  1220 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
-4707 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
+2019-06-20 10:49:25 +0000  1220 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:25 +0000  4707 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib
 copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib ... 
-2019-06-20 10:37:12 +0000  4828 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:12 +0000  3602 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib
+2019-06-20 10:49:25 +0000  4828 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:25 +0000  3602 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/objects-11.0+.nib
 copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib ... 
-2019-06-20 10:37:12 +0000  3724 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib ... 
-2019-06-20 10:37:12 +0000  996 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib
+2019-06-20 10:49:25 +0000  3724 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/iXt-xQ-IoS-view-XPk-T8-Cuy.nib/runtime.nib
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib ... 
+2019-06-20 10:49:25 +0000  996 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/objects-11.0+.nib
 copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib ... 
-2019-06-20 10:37:12 +0000  996 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
-copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist ... 
-2019-06-20 10:37:12 +0000  361 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
-2019-06-20 10:37:12 +0000  2570 bytes for ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-06-20 10:49:25 +0000  996 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/EndViewController.nib/runtime.nib
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-06-20 10:49:25 +0000  361 bytes for ./Payload/mindmath.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-06-20 10:49:25 +0000  2570 bytes for ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
 copying file ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
-2019-06-20 10:37:12 +0000  832 bytes for ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2019-06-20 10:49:25 +0000  832 bytes for ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
 copying file ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2019-06-20 10:37:12 +0000  258 bytes for ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/Assets.car ... 
-2019-06-20 10:37:12 +0000  5237448 bytes for ./Payload/mindmath.app/Assets.car
-2019-06-20 10:37:12 +0000  copying file ./Payload/mindmath.app/GameCollectionViewCell.nib ... 
+258 bytes for ./Payload/mindmath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-06-20 10:49:25 +0000  copying file ./Payload/mindmath.app/Assets.car ... 
+2019-06-20 10:49:26 +0000  5237448 bytes for ./Payload/mindmath.app/Assets.car
+2019-06-20 10:49:26 +0000  copying file ./Payload/mindmath.app/GameCollectionViewCell.nib ... 
 7828 bytes for ./Payload/mindmath.app/GameCollectionViewCell.nib
 copying file ./Payload/mindmath.app/embedded.mobileprovision ... 
 7636 bytes for ./Payload/mindmath.app/embedded.mobileprovision
 copying file ./Payload/mindmath.app/Info.plist ... 
 2906 bytes for ./Payload/mindmath.app/Info.plist
 copying file ./Payload/mindmath.app/PkgInfo ... 
-8 bytes for ./Payload/mindmath.app/PkgInfo
-2019-06-20 10:37:12 +0000  /usr/bin/ditto exited with 0
-2019-06-20 10:37:12 +0000  Processing step: IDEDistributionAppStoreInformationStep
-2019-06-20 10:37:12 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
-2019-06-20 10:37:12 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-06-20 10:49:26 +0000  8 bytes for ./Payload/mindmath.app/PkgInfo
+2019-06-20 10:49:26 +0000  /usr/bin/ditto exited with 0
+2019-06-20 10:49:26 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-06-20 10:49:26 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-06-20 10:49:26 +0000  Processing step: IDEDistributionCreateManifestStep
