@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mindmath.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>62BED8B0D5194F9B85810A12989E1CD5BA9A1BF8</string>
+				<key>dateExpires</key>
+				<string>2020/6/16</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4T3LT8RX4F.wt.k.zyy.mindmath</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4T3LT8RX4F</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>4T3LT8RX4F.wt.k.zyy.mindmath</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>mindmath.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>8d0eaada-5af8-4c1a-9be0-8dfcac03984a</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: wt.k.zyy.mindmath</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4T3LT8RX4F</string>
+				<key>name</key>
+				<string>Winfred Thomas</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
