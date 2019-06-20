@@ -9,7 +9,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://gitee.com/keje/testtest/upload/master/mindmath.ipa</string>
+		<string>https://github.com/kejee/testtest/raw/master/mindmath.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://gitee.com/keje/testtest/upload/master/123.png</string>
 		<key>fullSizeImageURL</key>
